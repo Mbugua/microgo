@@ -1,0 +1,14 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "diffEditor.codeLens": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.accessibilityPageSize": 12,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.codeLensFontFamily": "Fira Code",
+    "editor.codeLensFontSize": 14,
+    "editor.definitionLinkOpensInPeek": true,
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorStyle": "block"
+}
