@@ -4,14 +4,17 @@ import (
 	"log"
 	"net/http"
 	"os"
+
+	"github.com/mbugua/micro/handlers"
 )
 
 func main() {
 	l := log.New(os.Stdout, "product-api", log.LstdFlags)
 
-	hh := handlers.NewHello()
+	hh := handlers.NewHello(l)
 
-	http.HandleFunc()
+	sm := http.NewServeMux()
+	sm.Handle("/", hh)
 
 	http.ListenAndServe(":8080", nil)
 }

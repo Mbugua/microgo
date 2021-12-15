@@ -10,5 +10,6 @@
     "editor.codeLensFontSize": 14,
     "editor.definitionLinkOpensInPeek": true,
     "editor.cursorSmoothCaretAnimation": true,
-    "editor.cursorStyle": "block"
+    "editor.cursorStyle": "block",
+    "go.inferGopath": false
 }
