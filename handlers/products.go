@@ -21,6 +21,7 @@ func (p *Products) ServeHTTP(rw http.ResponseWriter, r *http.Request) {
 		return
 	}
 	// catch all
+	// if no method is satisfied retrun an error
 	rw.WriteHeader(http.StatusMethodNotAllowed)
 }
 
